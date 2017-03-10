@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.pongpat.assignment.constant.TaskStatus;
 
 @RestController
-@RequestMapping(value="/api")
+@RequestMapping(value="/utils")
 public class ApiController {
 
 	@RequestMapping(value="/status", method = RequestMethod.GET)
