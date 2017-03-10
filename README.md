@@ -7,7 +7,7 @@ http://{address}:{port}/todo/api/{services}
 
 Properties
     May be use in some service
-    
+##########  
     task_status :   {
                         api: "/todo/utils/status",
                         example:{
@@ -20,17 +20,17 @@ Properties
                       "detail": "task detail",
                       "status": {task_status},
                     }
-        
+########## 
             
                     
 Service List
-    For handler Task using "tasks" instead of {services}
-    From now these pattern use for explane services
-    
+For handler Task using "tasks" instead of {services}
+From now these pattern use for explane services
+##########     
         request url             : "{HTTP-METHOD} /todo/api/{services}",
         request body            : {},
         response({http-status}) : {...}
-    
+########## 
 	1. view all task list 
         request url     : "GET"  /todo/api/tasks,
 	    response(200)   :  "tasks": [
