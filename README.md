@@ -31,6 +31,7 @@ From now these pattern use for explane services
         response({http-status}) : {...}
 ########## 
 Service List
+
 	1. view all task list 
         request url     : "GET"  /todo/api/tasks,
 	    response(200)   :  "tasks": [
