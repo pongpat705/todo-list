@@ -22,15 +22,15 @@ Properties
                     }
 ########## 
             
-                    
-Service List
-For handler Task using "tasks" instead of {services}
+For handler Task using "tasks" instead of {services}.
+
 From now these pattern use for explane services
 ##########     
         request url             : "{HTTP-METHOD} /todo/api/{services}",
         request body            : {},
         response({http-status}) : {...}
 ########## 
+Service List
 	1. view all task list 
         request url     : "GET"  /todo/api/tasks,
 	    response(200)   :  "tasks": [
