@@ -6,7 +6,6 @@ END-POINT
 http://{address}:{port}/todo/api/{services}
 
 Properties
-    May be use in some service
 ##########  
     task_status :   {
                         api: "/todo/utils/status",
