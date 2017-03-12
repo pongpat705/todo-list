@@ -100,6 +100,4 @@ Instruction for deploy
 
 8.Look at target folder will have complied jar file eg "dashboard-0.0.1-SNAPSHOT.jar".
 
-9.Open terminal/cmd and locate to {project}/target folder 
-
-			then type "java -jar {name of complied jar}.jar"
+9.Open terminal/cmd and locate to {project}/target folder then type "java -jar {name of complied jar}.jar"
