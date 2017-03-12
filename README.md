@@ -78,17 +78,17 @@ Service List
 	
 
 Instruction for deploy
-	1.Install MySQL 5.5 if not exits.
-	2.Create Scheme "todo".
-	3.Clone this Repository to your Eclipse.
-	4.Convert to maven project.
-	5.Locate to "application.properties" file.
+1.Install MySQL 5.5 if not exits.
+2.Create Scheme "todo".
+3.Clone this Repository to your Eclipse.
+4.Convert to maven project.
+5.Locate to "application.properties" file.
 		change the properties
 			spring.datasource.url=jdbc:mysql://{your db address}:{your db port}/todo?characterEncoding=utf-8
 			spring.datasource.username={your username that owner scheme "todo"}
 			spring.datasource.password={your password}
-	6.Open terminal then locate to project folder.
-	7.Type "mvn clean package".
-	8.Look at target folder will have complied jar file eg "dashboard-0.0.1-SNAPSHOT.jar".
-	9.Open terminal/cmd and locate to {project}/target folder 
+6.Open terminal then locate to project folder.
+7.Type "mvn clean package".
+8.Look at target folder will have complied jar file eg "dashboard-0.0.1-SNAPSHOT.jar".
+9.Open terminal/cmd and locate to {project}/target folder 
 			then type "java -jar {name of complied jar}.jar"
