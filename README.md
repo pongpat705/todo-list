@@ -7,6 +7,9 @@ http://{address}:{port}/todo/api/{services}
 
 Properties
 ##########  
+
+This properties using for status combobox/dropdown.
+
     task_status :   {
                         api: "/todo/utils/status",
                         example:{
@@ -14,6 +17,9 @@ Properties
                                 "DONE": "Done"
                                 }
                     },
+                    
+This domain properties using for add/update/get Task
+                    
     task_domain :   {
                       "subject": "task subject 2",
                       "detail": "task detail",
@@ -79,6 +85,8 @@ Service List
 
 Instruction for deploy
 
+make sure you installed jdk 1.8
+
 1.Install MySQL 5.5 if not exits.
 
 2.Create Scheme "todo".
@@ -101,3 +109,5 @@ Instruction for deploy
 8.Look at target folder will have complied jar file eg "dashboard-0.0.1-SNAPSHOT.jar".
 
 9.Open terminal/cmd and locate to {project}/target folder then type "java -jar {name of complied jar}.jar"
+
+10.Application will start at http://localhost:8080/todo 
