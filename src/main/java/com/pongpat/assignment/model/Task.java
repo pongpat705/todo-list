@@ -1,6 +1,8 @@
 package com.pongpat.assignment.model;
 
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -17,6 +19,8 @@ public class Task {
 	private Long 		id;
 	private String 		subject;
 	private String 		detail;
+	
+	@Enumerated(EnumType.STRING)
 	private TaskStatus 	status;
 	
 	public Long getId() {

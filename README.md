@@ -1,5 +1,5 @@
 #Hi!
-My name is Pongpat Phokeed
+My name is Pongpat Phokeed.
 Here is a todo-list API.
 
 END-POINT
@@ -23,7 +23,7 @@ Properties
             
 For handler Task using "tasks" instead of {services}.
 
-From now these pattern use for explane services
+From now these pattern use for explain services
 ##########     
         request url             : "{HTTP-METHOD} /todo/api/{services}",
         request body            : {},
@@ -56,7 +56,7 @@ Service List
                               "detail": "task detail",
                               "status": {task_status}
                             }
-        response(204)   
+        response(201)   
         
 	4. edit a task 
 	    request url     : "PATCH"  /todo/api/tasks/{id},
