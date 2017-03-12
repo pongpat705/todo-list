@@ -88,7 +88,7 @@ You also look RestRepository at Hal Browser by http://{address}:{port}/todo/api/
 
 #Instruction for deploy
 
-#make sure you installed jdk 1.8
+##make sure you installed jdk 1.8
 
 ##solution 1
 
@@ -118,3 +118,11 @@ You also look RestRepository at Hal Browser by http://{address}:{port}/todo/api/
 10.Application will start at http://localhost:8080/todo 
 
 ##solution 2
+
+##make sure you installed jdk 1.8
+
+1.Download jar file from {url}
+
+2.Open terminal/cmd and locate to folder of file then type "java -jar {name of complied jar}.jar"
+
+3.Application will start at http://localhost:8080/todo 
