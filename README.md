@@ -76,12 +76,13 @@ Service List
 	    request url     : "DELETE"  /todo/api/tasks/{id}
         response(204)
 	
+
 Instruction for deploy
 	1.Install MySQL 5.5 if not exits.
 	2.Create Scheme "todo".
 	3.Clone this Repository to your Eclipse.
 	4.Convert to maven project.
-	5.Locate to "application.properties" file
+	5.Locate to "application.properties" file.
 		change the properties
 			spring.datasource.url=jdbc:mysql://{your db address}:{your db port}/todo?characterEncoding=utf-8
 			spring.datasource.username={your username that owner scheme "todo"}
