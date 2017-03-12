@@ -11,11 +11,11 @@ Properties
 This properties using for status combobox/dropdown.
 
     task_status :   {
-                        api: "/todo/utils/status",
-                        example:{
-                                "PENDING": "Pending",
-                                "DONE": "Done"
-                                }
+                        request url		: "GET"  /todo/utils/status,
+                        response			:	{
+				                                "PENDING": "Pending",
+				                                "DONE": "Done"
+		                                		}
                     },
                     
 This domain properties using for add/update/get Task
@@ -27,7 +27,7 @@ This domain properties using for add/update/get Task
                     }
 ########## 
             
-For handler Task using "tasks" instead of {services}.
+For access Task using "tasks" word instead of {services}.
 
 From now these pattern use for explain services
 ##########     
@@ -88,7 +88,7 @@ You also look RestRepository at Hal Browser by http://{address}:{port}/todo/api/
 
 #Instruction for deploy
 
-##make sure you installed jdk 1.8
+make sure you installed jdk 1.8
 
 ##solution 1
 
@@ -119,10 +119,10 @@ You also look RestRepository at Hal Browser by http://{address}:{port}/todo/api/
 
 ##solution 2
 
-##make sure you installed jdk 1.8
+make sure you installed jdk 1.8
 
-1.Download jar file from {url}
+1.Download jar file from https://drive.google.com/file/d/0BzbKcge9WTKKdkF3Q0NWenVMM2M/view?usp=sharing
 
-2.Open terminal/cmd and locate to folder of file then type "java -jar {name of complied jar}.jar"
+2.Open terminal/cmd and locate to folder of file then type "java -jar {jar file name}.jar"
 
 3.Application will start at http://localhost:8080/todo 
